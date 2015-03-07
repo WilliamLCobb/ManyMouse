@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA7B7C471A70AF4E005E8CAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C461A70AF4E005E8CAB /* main.m */; };
+		CA7B7C4A1A70AF4E005E8CAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C491A70AF4E005E8CAB /* AppDelegate.m */; };
+		CA7B7C4D1A70AF4E005E8CAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C4C1A70AF4E005E8CAB /* ViewController.m */; };
+		CA7B7C501A70AF4E005E8CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7B7C4E1A70AF4E005E8CAB /* Main.storyboard */; };
+		CA7B7C521A70AF4E005E8CAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7B7C511A70AF4E005E8CAB /* Images.xcassets */; };
+		CA7B7C551A70AF4E005E8CAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7B7C531A70AF4E005E8CAB /* LaunchScreen.xib */; };
+		CA7B7C611A70AF4E005E8CAB /* iMouseiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C601A70AF4E005E8CAB /* iMouseiOSTests.m */; };
+		CA7B7C6F1A70B049005E8CAB /* UDPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C6C1A70B049005E8CAB /* UDPClient.m */; };
+		CA7B7C701A70B049005E8CAB /* UDPHost.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C6E1A70B049005E8CAB /* UDPHost.m */; };
+		CA7B7C741A70B073005E8CAB /* TouchPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C731A70B073005E8CAB /* TouchPadViewController.m */; };
+		CA7B7C7E1A71984C005E8CAB /* BonjourHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C7D1A71984C005E8CAB /* BonjourHandler.m */; };
+		CA7B7C811A7198BA005E8CAB /* DevicePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C801A7198BA005E8CAB /* DevicePicker.m */; };
+		CA7B7C951A71C625005E8CAB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7B7C941A71C625005E8CAB /* SystemConfiguration.framework */; };
+		CA7B7C981A71C6D8005E8CAB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C971A71C6D8005E8CAB /* Reachability.m */; };
+		CA7B7C9B1A71DD08005E8CAB /* MouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B7C9A1A71DD08005E8CAB /* MouseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA7B7C5B1A70AF4E005E8CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA7B7C391A70AF4E005E8CAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA7B7C401A70AF4E005E8CAB;
+			remoteInfo = iMouseiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA7B7C411A70AF4E005E8CAB /* iMouseiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMouseiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7B7C451A70AF4E005E8CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7B7C461A70AF4E005E8CAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA7B7C481A70AF4E005E8CAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA7B7C491A70AF4E005E8CAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA7B7C4B1A70AF4E005E8CAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA7B7C4C1A70AF4E005E8CAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA7B7C4F1A70AF4E005E8CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA7B7C511A70AF4E005E8CAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA7B7C541A70AF4E005E8CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CA7B7C5A1A70AF4E005E8CAB /* iMouseiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMouseiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7B7C5F1A70AF4E005E8CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7B7C601A70AF4E005E8CAB /* iMouseiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMouseiOSTests.m; sourceTree = "<group>"; };
+		CA7B7C6B1A70B049005E8CAB /* UDPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPClient.h; sourceTree = "<group>"; };
+		CA7B7C6C1A70B049005E8CAB /* UDPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPClient.m; sourceTree = "<group>"; };
+		CA7B7C6D1A70B049005E8CAB /* UDPHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPHost.h; sourceTree = "<group>"; };
+		CA7B7C6E1A70B049005E8CAB /* UDPHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPHost.m; sourceTree = "<group>"; };
+		CA7B7C721A70B073005E8CAB /* TouchPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchPadViewController.h; sourceTree = "<group>"; };
+		CA7B7C731A70B073005E8CAB /* TouchPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchPadViewController.m; sourceTree = "<group>"; };
+		CA7B7C7C1A71984C005E8CAB /* BonjourHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourHandler.h; sourceTree = "<group>"; };
+		CA7B7C7D1A71984C005E8CAB /* BonjourHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourHandler.m; sourceTree = "<group>"; };
+		CA7B7C7F1A7198BA005E8CAB /* DevicePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicePicker.h; sourceTree = "<group>"; };
+		CA7B7C801A7198BA005E8CAB /* DevicePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicePicker.m; sourceTree = "<group>"; };
+		CA7B7C941A71C625005E8CAB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CA7B7C961A71C6D8005E8CAB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CA7B7C971A71C6D8005E8CAB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CA7B7C991A71DD08005E8CAB /* MouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseViewController.h; sourceTree = "<group>"; };
+		CA7B7C9A1A71DD08005E8CAB /* MouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA7B7C3E1A70AF4E005E8CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7B7C951A71C625005E8CAB /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7B7C571A70AF4E005E8CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA7B7C381A70AF4E005E8CAB = {
+			isa = PBXGroup;
+			children = (
+				CA7B7C941A71C625005E8CAB /* SystemConfiguration.framework */,
+				CA7B7C431A70AF4E005E8CAB /* iMouseiOS */,
+				CA7B7C5D1A70AF4E005E8CAB /* iMouseiOSTests */,
+				CA7B7C421A70AF4E005E8CAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA7B7C421A70AF4E005E8CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B7C411A70AF4E005E8CAB /* iMouseiOS.app */,
+				CA7B7C5A1A70AF4E005E8CAB /* iMouseiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA7B7C431A70AF4E005E8CAB /* iMouseiOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B7C751A71875D005E8CAB /* Bonjour */,
+				CA7B7C711A70B050005E8CAB /* Main */,
+				CA7B7C6A1A70B03C005E8CAB /* Networking */,
+				CA7B7C481A70AF4E005E8CAB /* AppDelegate.h */,
+				CA7B7C491A70AF4E005E8CAB /* AppDelegate.m */,
+				CA7B7C4B1A70AF4E005E8CAB /* ViewController.h */,
+				CA7B7C4C1A70AF4E005E8CAB /* ViewController.m */,
+				CA7B7C4E1A70AF4E005E8CAB /* Main.storyboard */,
+				CA7B7C511A70AF4E005E8CAB /* Images.xcassets */,
+				CA7B7C531A70AF4E005E8CAB /* LaunchScreen.xib */,
+				CA7B7C441A70AF4E005E8CAB /* Supporting Files */,
+			);
+			path = iMouseiOS;
+			sourceTree = "<group>";
+		};
+		CA7B7C441A70AF4E005E8CAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B7C451A70AF4E005E8CAB /* Info.plist */,
+				CA7B7C461A70AF4E005E8CAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA7B7C5D1A70AF4E005E8CAB /* iMouseiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B7C601A70AF4E005E8CAB /* iMouseiOSTests.m */,
+				CA7B7C5E1A70AF4E005E8CAB /* Supporting Files */,
+			);
+			path = iMouseiOSTests;
+			sourceTree = "<group>";
+		};
+		CA7B7C5E1A70AF4E005E8CAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B7C5F1A70AF4E005E8CAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA7B7C6A1A70B03C005E8CAB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B7C6B1A70B049005E8CAB /* UDPClient.h */,
+				CA7B7C6C1A70B049005E8CAB /* UDPClient.m */,
+				CA7B7C6D1A70B049005E8CAB /* UDPHost.h */,
+				CA7B7C6E1A70B049005E8CAB /* UDPHost.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		CA7B7C711A70B050005E8CAB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B7C721A70B073005E8CAB /* TouchPadViewController.h */,
+				CA7B7C731A70B073005E8CAB /* TouchPadViewController.m */,
+				CA7B7C991A71DD08005E8CAB /* MouseViewController.h */,
+				CA7B7C9A1A71DD08005E8CAB /* MouseViewController.m */,
+				CA7B7C7F1A7198BA005E8CAB /* DevicePicker.h */,
+				CA7B7C801A7198BA005E8CAB /* DevicePicker.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		CA7B7C751A71875D005E8CAB /* Bonjour */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B7C961A71C6D8005E8CAB /* Reachability.h */,
+				CA7B7C971A71C6D8005E8CAB /* Reachability.m */,
+				CA7B7C7C1A71984C005E8CAB /* BonjourHandler.h */,
+				CA7B7C7D1A71984C005E8CAB /* BonjourHandler.m */,
+			);
+			name = Bonjour;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA7B7C401A70AF4E005E8CAB /* iMouseiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7B7C641A70AF4E005E8CAB /* Build configuration list for PBXNativeTarget "iMouseiOS" */;
+			buildPhases = (
+				CA7B7C3D1A70AF4E005E8CAB /* Sources */,
+				CA7B7C3E1A70AF4E005E8CAB /* Frameworks */,
+				CA7B7C3F1A70AF4E005E8CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMouseiOS;
+			productName = iMouseiOS;
+			productReference = CA7B7C411A70AF4E005E8CAB /* iMouseiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA7B7C591A70AF4E005E8CAB /* iMouseiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7B7C671A70AF4E005E8CAB /* Build configuration list for PBXNativeTarget "iMouseiOSTests" */;
+			buildPhases = (
+				CA7B7C561A70AF4E005E8CAB /* Sources */,
+				CA7B7C571A70AF4E005E8CAB /* Frameworks */,
+				CA7B7C581A70AF4E005E8CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA7B7C5C1A70AF4E005E8CAB /* PBXTargetDependency */,
+			);
+			name = iMouseiOSTests;
+			productName = iMouseiOSTests;
+			productReference = CA7B7C5A1A70AF4E005E8CAB /* iMouseiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA7B7C391A70AF4E005E8CAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Apprentice Media LLC";
+				TargetAttributes = {
+					CA7B7C401A70AF4E005E8CAB = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 65UT5H6UZR;
+					};
+					CA7B7C591A70AF4E005E8CAB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CA7B7C401A70AF4E005E8CAB;
+					};
+				};
+			};
+			buildConfigurationList = CA7B7C3C1A70AF4E005E8CAB /* Build configuration list for PBXProject "iMouseiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA7B7C381A70AF4E005E8CAB;
+			productRefGroup = CA7B7C421A70AF4E005E8CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA7B7C401A70AF4E005E8CAB /* iMouseiOS */,
+				CA7B7C591A70AF4E005E8CAB /* iMouseiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA7B7C3F1A70AF4E005E8CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7B7C501A70AF4E005E8CAB /* Main.storyboard in Resources */,
+				CA7B7C551A70AF4E005E8CAB /* LaunchScreen.xib in Resources */,
+				CA7B7C521A70AF4E005E8CAB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7B7C581A70AF4E005E8CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA7B7C3D1A70AF4E005E8CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7B7C4D1A70AF4E005E8CAB /* ViewController.m in Sources */,
+				CA7B7C4A1A70AF4E005E8CAB /* AppDelegate.m in Sources */,
+				CA7B7C7E1A71984C005E8CAB /* BonjourHandler.m in Sources */,
+				CA7B7C741A70B073005E8CAB /* TouchPadViewController.m in Sources */,
+				CA7B7C701A70B049005E8CAB /* UDPHost.m in Sources */,
+				CA7B7C6F1A70B049005E8CAB /* UDPClient.m in Sources */,
+				CA7B7C9B1A71DD08005E8CAB /* MouseViewController.m in Sources */,
+				CA7B7C471A70AF4E005E8CAB /* main.m in Sources */,
+				CA7B7C981A71C6D8005E8CAB /* Reachability.m in Sources */,
+				CA7B7C811A7198BA005E8CAB /* DevicePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7B7C561A70AF4E005E8CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7B7C611A70AF4E005E8CAB /* iMouseiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA7B7C5C1A70AF4E005E8CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA7B7C401A70AF4E005E8CAB /* iMouseiOS */;
+			targetProxy = CA7B7C5B1A70AF4E005E8CAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA7B7C4E1A70AF4E005E8CAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7B7C4F1A70AF4E005E8CAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA7B7C531A70AF4E005E8CAB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7B7C541A70AF4E005E8CAB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA7B7C621A70AF4E005E8CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA7B7C631A70AF4E005E8CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA7B7C651A70AF4E005E8CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iMouseiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA7B7C661A70AF4E005E8CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iMouseiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA7B7C681A70AF4E005E8CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iMouseiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMouseiOS.app/iMouseiOS";
+			};
+			name = Debug;
+		};
+		CA7B7C691A70AF4E005E8CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iMouseiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMouseiOS.app/iMouseiOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA7B7C3C1A70AF4E005E8CAB /* Build configuration list for PBXProject "iMouseiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7B7C621A70AF4E005E8CAB /* Debug */,
+				CA7B7C631A70AF4E005E8CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7B7C641A70AF4E005E8CAB /* Build configuration list for PBXNativeTarget "iMouseiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7B7C651A70AF4E005E8CAB /* Debug */,
+				CA7B7C661A70AF4E005E8CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7B7C671A70AF4E005E8CAB /* Build configuration list for PBXNativeTarget "iMouseiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7B7C681A70AF4E005E8CAB /* Debug */,
+				CA7B7C691A70AF4E005E8CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA7B7C391A70AF4E005E8CAB /* Project object */;
+}
